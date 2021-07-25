@@ -58,7 +58,7 @@ upload_proxy() {
 }
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        echo "dong/dong/$IP4/$port/$(gen64 $IP6)"
+        echo "dongtran/123456/$IP4/$port/$(gen64 $IP6)"
     done
 }
 
